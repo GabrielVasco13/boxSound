@@ -1,5 +1,8 @@
 import 'package:hive/hive.dart';
 
+part 'music_model.g.dart';
+
+@HiveType(typeId: 0)
 class MusicModel extends HiveObject {
   MusicModel({
     required this.title,
