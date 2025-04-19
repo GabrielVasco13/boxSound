@@ -31,7 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  routefly: ^3.1.2
+  go_router: ^15.0.0
   just_audio: ^0.9.43
   provider: ^6.1.4
   file_picker: ^10.1.2
