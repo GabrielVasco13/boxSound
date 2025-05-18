@@ -17,12 +17,6 @@ class HomePage extends StatelessWidget {
           return ListTile(
             title: Text(music.title),
             subtitle: Text(music.path),
-            trailing: IconButton(
-              icon: Icon(
-                music.isFavorite ? Icons.favorite : Icons.favorite_border,
-              ),
-              onPressed: () => viewModel.addFavorite(index),
-            ),
           );
         },
       ),

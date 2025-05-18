@@ -1,4 +1,4 @@
-import 'package:box_sound/ui/views/home/home_page.dart';
+import 'package:box_sound/views/home/home_page.dart';
 import 'package:go_router/go_router.dart';
 
 final GoRouter router = GoRouter(
