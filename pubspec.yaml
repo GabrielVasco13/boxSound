@@ -38,6 +38,9 @@ dependencies:
   path_provider: ^2.1.5
   hive: ^2.2.3
   hive_flutter: ^1.1.0
+  flutter_animate: ^4.5.2
+  flutter_vector_icons: ^2.0.0
+  permission_handler: ^12.0.0+1
 
 dev_dependencies:
   hive_generator: ^2.0.0

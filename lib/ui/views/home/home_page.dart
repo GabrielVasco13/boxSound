@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final viewModel = Provider.of<MusicViewmodel>(context);
     return Scaffold(
-      appBar: AppBar(title: Text('Minhas Músicas')),
+      appBar: AppBar(title: const Text('Minhas Músicas')),
       body: ListView.builder(
         itemCount: viewModel.musics.length,
         itemBuilder: (context, index) {
@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
     );
   }
